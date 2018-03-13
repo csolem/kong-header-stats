@@ -1,15 +1,14 @@
 package = "kong-plugin-header-stats"
--- https://github.com/Kong/kong-plugin/blob/master/kong-plugin-myplugin-0.1.0-1.rockspec
+-- Inspired from https://github.com/Kong/kong-plugin/blob/master/kong-plugin-myplugin-0.1.0-1.rockspec
 version = "0.0.1-1"
 local pluginName = package:match("^kong%-plugin%-(.+)$")
 supported_platforms = {"linux", "macosx"}
 source = {
-  -- these are initially not required to make it work
-  url = "git://github.com/Mashape/kong_plugin",
-  tag = "0.1.0"
+  url = "https://github.com/entur/kong-header-stats",
+  tag = "0.0.1"
 }
 description = {
-  summary = "Kong is a scalable and customizable API Management Layer built on top of Nginx.",
+  summary = "Plugin to send metrics from custom headers to graphite",
   homepage = "http://getkong.org",
   license = "MIT"
 }

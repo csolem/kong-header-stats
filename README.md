@@ -1,3 +1,10 @@
 # kong-header-stats
 
-Plugin to send metrics from custom headers to graphite
+Not complete.
+
+Plugin to send metrics from custom header to graphite
+
+
+## Install on ubuntu
+
+`sudo apt-get install luarocks lua-busted`

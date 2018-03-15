@@ -1,8 +1,7 @@
 # kong-header-stats
 
-Not complete.
-
-Plugin to send metrics from custom header to graphite
+Deprecated before it was implemented.
+Was intended for use with kong to send metrics about a certain header to graphite/grafana.
 
 
 ## Install on ubuntu
